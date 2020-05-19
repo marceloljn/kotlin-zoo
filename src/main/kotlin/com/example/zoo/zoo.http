@@ -1,0 +1,31 @@
+### Cria um animal
+POST http://localhost:8080/animals
+Content-Type: application/json
+
+{
+    "specie": "Elefante",
+    "name": "Magnólia",
+    "gender": "F",
+    "age": 11
+}
+
+### Lista todos animais
+GET http://localhost:8080/animals
+Content-Type: application/json
+
+### Atualiza os dados de uma animal
+PUT http://localhost:8080/animals/10
+Content-Type: application/json
+
+{
+    "specie": "Elefante",
+    "name": "Magnólia Foa",
+    "gender": "F",
+    "Age": 13
+}
+
+### Deleta um animal
+DELETE http://localhost:8080/animals/10
+Content-Type: application/json
+
+

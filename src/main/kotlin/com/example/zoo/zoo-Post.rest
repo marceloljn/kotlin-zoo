@@ -1,0 +1,31 @@
+### Cria um animal
+POST
+http://localhost:8080/animals
+@Content-Type: application/json
+{
+    "specie": "Leão",
+    "name": "Bingo",
+    "gender": "M",
+    "age": 4
+}
+
+%%%
+
+# Duration: 804 ms
+# URL: http://localhost:8080/animals
+
+# HTTP/1.1 200
+
+@Content-Type: application/json
+@Transfer-Encoding: chunked
+@Date: Tue, 19 May 2020 13:26:20 GMT
+@Keep-Alive: timeout=60
+@Connection: keep-alive
+
+{
+  "id": "5ec3de7cf81d635736a2ce12",
+  "specie": "Leão",
+  "name": "Bingo",
+  "gender": "M",
+  "age": 4
+}

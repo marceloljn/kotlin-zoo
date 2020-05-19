@@ -1,0 +1,17 @@
+### Deleta um animal
+DELETE
+http://localhost:8080/animals/5ec3de7cf81d635736a2ce12
+@Content-Type: application/json
+
+%%%
+
+# Duration: 88 ms
+# URL: http://localhost:8080/animals/5ec3de7cf81d635736a2ce12
+
+# HTTP/1.1 200
+
+@Content-Length: 0
+@Date: Tue, 19 May 2020 13:26:30 GMT
+@Keep-Alive: timeout=60
+@Connection: keep-alive
+
